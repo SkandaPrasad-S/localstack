@@ -66,6 +66,12 @@ PROVIDER_DEFAULTS = {
     "AWS::DynamoDB::Table": "ResourceProvider",
     "AWS::CloudWatch::Alarm": "ResourceProvider",
     "AWS::CloudWatch::CompositeAlarm": "ResourceProvider",
+    "AWS::ElasticBeanstalk::Application": "ResourceProvider",
+    "AWS::ElasticBeanstalk::ApplicationVersion": "ResourceProvider",
+    "AWS::ElasticBeanstalk::Environment": "ResourceProvider",
+    "AWS::ElasticBeanstalk::ConfigurationTemplate": "ResourceProvider",
+    # "AWS::SSM::Parameter": "GenericBaseModel",
+    # "AWS::OpenSearchService::Domain": "GenericBaseModel",
 }
 
 
