@@ -71,7 +71,6 @@ PROVIDER_DEFAULTS = {
     "AWS::ElasticBeanstalk::Environment": "ResourceProvider",
     "AWS::ElasticBeanstalk::ConfigurationTemplate": "ResourceProvider",
     # "AWS::SSM::Parameter": "GenericBaseModel",
-    "AWS::OpenSearchService::Domain": "GenericBaseModel",
     "AWS::ECR::Repository": "ResourceProvider",
     # "AWS::ECR::Repository": "ResourceProvider",  # FIXME: add full -ext provider & override logic for -ext
 }
